@@ -1,10 +1,13 @@
 import React from 'react';
-import GlassNavbar from './components/Navbar/GlassNavBar';
+import GlassNavbar from './components/Navbar/GlassNavBar.jsx';
+import About from './About.jsx';
+
+
 
 const App = () => {
   return (
     <div>
-      <GlassNavBar />
+      <GlassNavbar />
       <About />
       <Projects />
       <Skills />
